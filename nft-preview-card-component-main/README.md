@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- [Live site URL](https://your-live-site-url.com)
+- [Live site URL](https://nft-preview-mwiafeansong.netlify.app/)
 
 ## My process
 
@@ -52,4 +52,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@mwiafeansong](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@mwiafeansong](https://www.frontendmentor.io/profile/mwiafeansong)
