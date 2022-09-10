@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live site URL](https://perfumeproduct-mwiafeansong.netlify.app/)
+- [Live site URL](https://perfumeproduct-mwiafeansong.netlify.app/)
 
 ## My process
 
