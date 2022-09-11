@@ -1,0 +1,122 @@
+:root {
+    font-size: 15px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    max-width: 600px;
+}
+
+.cars {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 25px;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 8px 0 0 8px;
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 8px 8px 0;
+}
+
+.title {
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+}
+
+.text {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+button {
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 10px;
+    width: 70%;
+    border-radius: 20px;
+    border: none;
+    margin-top: 35px;
+}
+
+button.sedan-btn {
+    color: hsl(31, 77%, 52%);
+}
+
+button.suv-btn {
+    color: hsl(184, 100%, 22%);
+}
+
+button.luxury-btn {
+    color: hsl(179, 100%, 13%);
+}
+
+button:hover {
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    outline: 1px solid hsl(0, 0%, 95%); 
+}
+
+footer.attribution {
+    font-size: 11px;
+}
+
+footer.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        width: 85%;
+        max-width: 375px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .sedans {
+        border-radius: 8px 8px 0 0;
+    }
+
+    .luxury {
+        border-radius: 0 0 8px 8px;
+    }
+
+    button {
+        width: 55%;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    footer.attribution {
+        position: absolute;
+        bottom: 0;
+    }
+}
