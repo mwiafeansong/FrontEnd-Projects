@@ -20,10 +20,11 @@ body {
 
 .container {
     display: flex;
-    max-width: 800px;
+    max-width: 750px;
 }
 
 .cars {
+    flex-basis: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
