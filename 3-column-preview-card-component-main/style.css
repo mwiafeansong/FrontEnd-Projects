@@ -20,20 +20,20 @@ body {
 
 .container {
     display: flex;
-    max-width: 600px;
+    max-width: 800px;
 }
 
 .cars {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 20px;
-    padding: 25px;
+    gap: 30px;
+    padding: 35px;
 }
 
 .sedans {
     background-color: hsl(31, 77%, 52%);
-    border-radius: 8px 0 0 8px;
+    border-radius: 5px 0 0 5px;
 }
 
 .suvs {
@@ -42,7 +42,7 @@ body {
 
 .luxury {
     background-color: hsl(179, 100%, 13%);
-    border-radius: 0 8px 8px 0;
+    border-radius: 0 5px 5px 0;
 }
 
 .title {
@@ -101,11 +101,11 @@ footer.attribution a {
     }
 
     .sedans {
-        border-radius: 8px 8px 0 0;
+        border-radius: 5px 5px 0 0;
     }
 
     .luxury {
-        border-radius: 0 0 8px 8px;
+        border-radius: 0 0 5px 5px;
     }
 
     button {
