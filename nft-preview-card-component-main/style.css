@@ -55,6 +55,10 @@ body {
     color: hsl(215, 51%, 70%)
 }
 
+h3 {
+    width:fit-content;
+}
+
 .with-icons {
     display: flex;
     justify-content: space-between;
