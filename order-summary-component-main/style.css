@@ -1,9 +1,9 @@
 :root {
-    --paleBlue: hsl(225, 100%, 94%);
-    --brightBlue: hsl(245, 75%, 52%);
-    --veryPaleBlue: hsl(225, 100%, 98%);
-    --desaturatedBlue: hsl(224, 23%, 55%);
-    --darkBlue: hsl(223, 47%, 23%);
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-lue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
 }
 
 * {
@@ -16,7 +16,7 @@ body {
     font-family: 'Red Hat Display', sans-serif;
     font-size: 16px;
     height: 100vh;
-    background-color: var(--paleBlue);
+    background-color: var(--pale-blue);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -60,12 +60,12 @@ main > h3, .main-text, .cancel {
 }
 
 h3, .annual-plan {
-    color: var(--darkBlue);
+    color: var(--dark-blue);
     font-weight: 900;
 }
 
 main > p, .cost {
-    color: var(--desaturatedBlue);
+    color: var(--desaturated-blue);
 }
 
 .main-text{
@@ -73,7 +73,7 @@ main > p, .cost {
 }
 
 .pay-plan {
-    background-color: var(--veryPaleBlue);
+    background-color: var(--very-pale-blue);
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -83,7 +83,7 @@ main > p, .cost {
 }
 
 .pay-plan a {
-    color: var(--brightBlue);
+    color: var(--bright-blue);
 }
 
 .pay-plan a:hover {
@@ -100,7 +100,7 @@ main > p, .cost {
 
 button {
     font-family: 'Red Hat Display', sans-serif;
-    background-color: var(--brightBlue);
+    background-color: var(--bright-blue);
     width: 100%;
     color: white;
     border: none;
@@ -110,7 +110,7 @@ button {
 }
 
 button:hover {
-    opacity: 0.7;
+    opacity: 0.8;
     cursor: pointer;
 }
 
@@ -119,7 +119,7 @@ button:hover {
 }
 
 .cancel:hover {
-    color: var(--darkBlue);
+    color: var(--dark-blue);
     cursor: pointer;
     font-weight: bold;
 }
