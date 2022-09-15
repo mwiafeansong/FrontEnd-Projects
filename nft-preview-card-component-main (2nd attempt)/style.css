@@ -36,7 +36,7 @@ picture {
     position: relative;
 } 
 
-picture:before {
+picture::before {
     content: url('./images/icon-view.svg');
     position: absolute;
     background-color: hsl(178, 100%, 50%, 0.5);
@@ -50,7 +50,7 @@ picture:before {
     cursor: pointer;
 }
 
-picture:hover:before {
+picture:hover::before {
     opacity: 1;
 }
 
