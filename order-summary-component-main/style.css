@@ -1,7 +1,7 @@
 :root {
     --pale-blue: hsl(225, 100%, 94%);
     --bright-blue: hsl(245, 75%, 52%);
-    --very-pale-lue: hsl(225, 100%, 98%);
+    --very-pale-blue: hsl(225, 100%, 98%);
     --desaturated-blue: hsl(224, 23%, 55%);
     --dark-blue: hsl(223, 47%, 23%);
 }
@@ -15,7 +15,7 @@
 body {
     font-family: 'Red Hat Display', sans-serif;
     font-size: 16px;
-    height: 100vh;
+    min-height: 100vh;
     background-color: var(--pale-blue);
     display: flex;
     flex-direction: column;
