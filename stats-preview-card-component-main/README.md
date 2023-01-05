@@ -25,11 +25,12 @@ Users should be able to:
 ### Screenshot
 
 ![Desktop view](./images/stats-desktop-screenshot.png)
-![Mobile view](./images/stats-mobile-screenshot.png)
+![Mobile view](./images/stats-preview-mobile-view.png)
 
 ### Links
 
 - Live Site URL: [Stats Preview Card Component](https://github.com/FrontEnd-Projects/stats-preview-card-component-main/index.html)
+
 
 ## My process
 
