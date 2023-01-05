@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Interactive Card Component](https://mwiafeansong.github.io/Front-End-Projects/interactive-rating-component-main)
+- Live Site URL: [Interactive Card Component](https://mwiafeansong.github.io/Front-End-Projects/interactive-rating-component-main/index.html)
 
 ## My process
 
