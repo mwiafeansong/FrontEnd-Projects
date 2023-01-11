@@ -35,7 +35,9 @@ main {
 
 .query-container,
 .thank-you-modal {
+    width: 90%;
     max-width: 350px;
+    margin: auto;
     background-color: var(--dark-blue);
     padding: 25px;
     border-radius: 10px;
@@ -122,6 +124,10 @@ h1 {
     top: 0;
     opacity: 0;
     pointer-events: none;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .show {
@@ -147,21 +153,4 @@ h1 {
 }
 .thank-you-modal p {
     line-height: 1.4rem;
-}
-
-
-@media screen and (max-width: 360px) {
-    .query-container,
-    .thank-you-modal {
-        width: 90%;
-        margin: auto;
-    }
-
-    .thank-you-modal {
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-    }
-
 }
