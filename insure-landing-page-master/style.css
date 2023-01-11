@@ -178,8 +178,10 @@ nav ul a {
     transform: translateX(-50%);
 }
 
-.different h1 {
+.different h2 {
     padding: 40px 0 50px 0;
+    font-family: var(--header-font);
+    font-size: 2.8rem;
 }
 
 .different .benefits {
@@ -192,9 +194,10 @@ nav ul a {
     flex: 1 1 210px;
 }
 
-.benefits-item h2 {
+.benefits-item h3 {
     margin: 10px 0;
     font-family: var(--header-font);
+    font-size: 1.7rem;
 }
 
 /* HOW WE WORK */
@@ -218,9 +221,9 @@ nav ul a {
 }
 
 .how-we-work h2 {
-    color: var(--very-light-gray);
     font-family: var(--header-font);
     font-size: 2.8rem;
+    color: var(--very-light-gray);
     position: relative;
     z-index: 1;
 }
