@@ -46,6 +46,7 @@ Users should be able to:
 
 -Mobile first workflow
 -Hamburger menu
+-I finally got a handle on css flex-basis;
 
 ### Useful resources
 
