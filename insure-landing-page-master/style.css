@@ -26,7 +26,7 @@ body {
     background-color: #fff;
     font-family: var(--paragraph-font);
     width: 100%;
-    max-width: 1400px;
+    max-width: 1440px;
     margin: 0 auto;
     overflow-x: hidden;
 }
@@ -66,7 +66,7 @@ p {
     color: var(--dark-violet);
 }
 
-section, footer {
+main, footer {
     text-align: center;
 }
 
@@ -194,6 +194,7 @@ nav ul a {
 
 .benefits-item h2 {
     margin: 10px 0;
+    font-family: var(--header-font);
 }
 
 /* HOW WE WORK */
@@ -273,9 +274,10 @@ footer {
     flex: 1 1 170px;
 }
 
-.footer-info h3 {
+.footer-info h2 {
     color: var(--dark-grayish-violet);
     margin: 25px 0;
+    font-size: 1.2rem;
 }
 
 .footer-info ul li {
@@ -316,7 +318,7 @@ footer {
 
 @media screen and (min-width: 882px) {
 
-    section, footer {
+    main, footer {
         text-align: left;
     }
 
