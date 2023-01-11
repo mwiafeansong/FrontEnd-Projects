@@ -201,7 +201,7 @@ nav ul a {
 .how-we-work {
     background-color: var(--dark-violet);
     position: relative;
-    margin: 100px auto;
+    margin: 170px auto;
     padding: 90px 40px;
 }
 
@@ -430,6 +430,7 @@ footer {
         transform: none;
     }
 
+    /* HOW WE WORK */
     .how-we-work {
         padding: 65px 80px;
     }
