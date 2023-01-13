@@ -87,13 +87,14 @@ header {
     justify-content: space-between;
     padding: 10px 5%;
     height: 60px;
+    text-align: center;
 }
 
 .close {
     position: absolute;
     right: 5%;
     top: 12px;
-    display: none;
+    visibility: hidden;
 }
 
 nav ul{

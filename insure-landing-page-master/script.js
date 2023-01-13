@@ -3,13 +3,13 @@ const closeIcon = document.querySelector('.close');
 const menu = document.querySelector('ul');
 
 hamburger.addEventListener('click', (e) => {
-    closeIcon.style.display = 'block';
-    e.target.style.display = 'none';
+    closeIcon.style.visibility = 'visible';
+    e.target.style.visibility = 'hidden';
     menu.style.width = '100%';
 })
 
 closeIcon.addEventListener('click', (e) => {
-    e.target.style.display = 'none';
-    hamburger.style.display = 'block';
+    e.target.style.visibility = 'hidden';
+    hamburger.style.visibility = 'visible';
     menu.style.width = '0';
 })
