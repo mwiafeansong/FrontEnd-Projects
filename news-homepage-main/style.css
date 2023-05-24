@@ -231,6 +231,10 @@ main {
     display: none;
   }
 
+  header {
+    margin: 0 5%;
+  }
+
   header .menu,
   header .close {
     display: block;
@@ -272,6 +276,7 @@ main {
 
   main {
     grid-template-columns: 1fr;
+    width: 90%;
   }
 
   .grid-1-text {
