@@ -1,0 +1,285 @@
+@font-face {
+  font-family: Inter-Regular;
+  src: url(assets/fonts/static/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: Inter-Bold;
+  src: url(assets/fonts/static/Inter-Bold.ttf);
+}
+
+@font-face {
+  font-family: Inter-ExtraBold;
+  src: url(assets/fonts/static/Inter-ExtraBold.ttf);
+}
+
+:root {
+  --soft-orange: hsl(35, 77%, 62%);
+  --soft-red: hsl(5, 85%, 63%);
+  --off-white: hsl(36, 100%, 99%);
+  --grayish-blue: hsl(233, 8%, 79%);
+  --dark-grayish-blue: hsl(236, 13%, 42%);
+  --very-dark-blue: hsl(240, 100%, 5%);
+}
+
+/* BASE STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  max-width: 1440px;
+  font-family: Inter-Regular;
+}
+
+h1,
+h2 {
+  font-family: Inter-ExtraBold;
+}
+
+h3 {
+  font-family: Inter-Bold;
+}
+
+/* LOGO AND NAV */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10%;
+  padding: 15px 0;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header button {
+  display: none;
+  background-color: transparent;
+  border: none;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--grayish-blue);
+}
+
+nav ul li a:hover {
+  color: var(--soft-orange);
+}
+
+/* MAIN */
+main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 40px;
+  row-gap: 70px;
+  margin-bottom: 80px;
+  width: 80%;
+  margin: 0 auto 80px auto;
+}
+
+/* GRID 1 */
+.grid-1 img {
+  width: 100%;
+}
+
+.grid-1-text {
+  display: flex;
+  gap: 60px;
+  margin-top: 15px;
+}
+
+.grid-1-text h2 {
+  font-size: 2.3rem;
+}
+
+.grid-1-text p {
+  margin-bottom: 30px;
+  color: var(--dark-grayish-blue);
+}
+
+.grid-1-text button {
+  background-color: var(--soft-red);
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  padding: 12px 20px;
+  letter-spacing: 2px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.grid-1-text button:hover {
+  background-color: var(--very-dark-blue);
+}
+
+/* GRID 2 */
+.grid-2 {
+  background-color: var(--very-dark-blue);
+  padding: 20px;
+}
+
+.grid-2 h2 {
+  color: var(--soft-orange);
+}
+
+.grid-2 a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+}
+
+.grid-2 a:hover {
+  color: var(--soft-orange);
+}
+
+.grid-2 p {
+  color: var(--grayish-blue);
+}
+
+.grid-2 div {
+  padding: 20px 0;
+  line-height: 1.5;
+}
+
+.grid-2 div:nth-child(3) {
+  border-top: 1px solid var(--grayish-blue);
+  border-bottom: 1px solid var(--grayish-blue);
+}
+
+/* GRID 3 */
+/* .grid-3 {
+  grid-column: 1 / span 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+} */
+
+.grid-3 {
+  grid-column: 1 / span 2;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.grid-3-card {
+  flex: 1 1 300px;
+  display: flex;
+  gap: 20px;
+}
+
+.grid-3-card div {
+  line-height: 1.5;
+}
+
+.grid-3 h2 {
+  color: var(--grayish-blue);
+  font-size: 1.7rem;
+}
+
+.grid-3 a {
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--very-dark-blue);
+}
+
+.grid-3 a:hover {
+  color: var(--soft-orange);
+}
+
+.grid-3 h3 {
+  font-size: 1rem;
+}
+
+.grid-3 p {
+  color: var(--dark-grayish-blue);
+  font-size: 1rem;
+}
+
+.grid-3 img {
+  width: 100px;
+  height: auto;
+  object-fit: cover;
+}
+
+/* FOOTER */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 700px) {
+  .backdrop {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    inset: 0;
+    display: none;
+  }
+
+  header .menu,
+  header .close {
+    display: block;
+  }
+
+  nav {
+    padding: 25px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 70%;
+    background-color: #fff;
+    transition: 0.3s ease;
+  }
+
+  nav .close {
+    margin: 0 0 90px auto;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li a {
+    color: var(--very-dark-blue);
+    font-weight: 800;
+  }
+
+  .invisible {
+    visibility: hidden;
+    transform: translateX(100%);
+  }
+
+  .visible {
+    visibility: visible;
+    transform: translateX(0%);
+  }
+
+  main {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-1-text {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .grid-3 {
+    grid-column: 1;
+  }
+}
