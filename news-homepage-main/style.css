@@ -50,7 +50,7 @@ header {
   justify-content: space-between;
   align-items: center;
   margin: 0 10%;
-  padding: 15px 0;
+  padding: 30px 0;
 }
 
 header h1 {
@@ -84,7 +84,7 @@ main {
   grid-template-columns: 2fr 1fr;
   column-gap: 40px;
   row-gap: 70px;
-  margin-bottom: 80px;
+  /* margin-bottom: 80px; */
   width: 80%;
   margin: 0 auto 80px auto;
 }
@@ -212,15 +212,6 @@ main {
   width: 100px;
   height: auto;
   object-fit: cover;
-}
-
-/* FOOTER */
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
 }
 
 @media screen and (max-width: 700px) {
