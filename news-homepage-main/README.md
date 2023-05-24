@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Source Code](https://github.com/mwiafeansong/)
-- Live Site URL: [News Homepage](https://your-live-site-url.com)
+- Solution URL: [Source Code](https://github.com/mwiafeansong/FrontEnd-Projects/tree/master/news-homepage-main)
+- Live Site URL: [News Homepage](https://mwiafeansong.github.io/FrontEnd-Projects/news-homepage-main/index.html)
 
 ## My process
 

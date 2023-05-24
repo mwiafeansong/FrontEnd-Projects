@@ -32,16 +32,16 @@
 body {
   min-height: 100vh;
   max-width: 1440px;
-  font-family: Inter-Regular;
+  font-family: Inter-Regular, Arial, Helvetica, sans-serif;
 }
 
 h1,
 h2 {
-  font-family: Inter-ExtraBold;
+  font-family: Inter-ExtraBold, Arial, Helvetica, sans-serif;
 }
 
 h3 {
-  font-family: Inter-Bold;
+  font-family: Inter-Bold, Arial, Helvetica, sans-serif;
 }
 
 /* LOGO AND NAV */
