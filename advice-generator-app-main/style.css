@@ -50,7 +50,7 @@ h1 {
 p {
   color: var(--light-cyan);
   font-size: 28px;
-  margin: 25px;
+  margin: 30px 0 35px 0;
 }
 
 .line {
