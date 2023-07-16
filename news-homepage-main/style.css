@@ -234,12 +234,13 @@ main {
   nav {
     padding: 25px;
     position: absolute;
+    z-index: 1;
     right: 0;
     bottom: 0;
     top: 0;
     width: 70%;
     background-color: #fff;
-    transition: 0.3s ease;
+    transition: transform 0.3s ease;
   }
 
   nav .close {
@@ -256,13 +257,13 @@ main {
   }
 
   .invisible {
-    visibility: hidden;
     transform: translateX(100%);
+    opacity: 0;
   }
 
   .visible {
-    visibility: visible;
-    transform: translateX(0%);
+    transform: translate(0%);
+    opacity: 1;
   }
 
   main {
