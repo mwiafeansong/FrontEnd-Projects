@@ -31,9 +31,7 @@ Users should be able to:
 
 ### Links
 
-<!-- - Live Site URL: [View Site](https://mwiafeansong.github.io/FrontEnd-Projects/expenses-chart-component-main/index.html) -->
-
-- Solution URL: [Source Code](https://github.com/mwiafeansong/FrontEnd-Projects/expenses-chart-component-main)
+- Live Site URL: [View Site](https://mwiafeansong.github.io/FrontEnd-Projects/expenses-chart-component-main/index.html)
 
 ## My process
 
